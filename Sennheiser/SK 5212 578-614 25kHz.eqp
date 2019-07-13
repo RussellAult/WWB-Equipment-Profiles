@@ -1,0 +1,37 @@
+<equipment_profile appl_version="6.12.2.35" time="23:07:46" version="1.0" date="Sat Nov 3 2018" source="callas">
+    <device>
+        <identification>
+            <manufacturer>Sennheiser</manufacturer>
+            <model>SK 5212</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>578-614 25kHz</band>
+                <start units="kHz">578000</start>
+                <end units="kHz">614000</end>
+                <step_size units="kHz">25</step_size>
+            </band_info>
+            <tx_power units="mW">50</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start more_frequencies="-50000" standard="-50000" robust="-100000"/>
+                    <end more_frequencies="50000" standard="50000" robust="100000"/>
+                </filter>
+                <channel_spacing more_frequencies="300" standard="300" robust="500"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order more_frequencies="175" standard="175" robust="200"/>
+                        <fifth_order more_frequencies="0" standard="0" robust="150"/>
+                        <seventh_order more_frequencies="0" standard="0" robust="0"/>
+                        <ninth_order more_frequencies="0" standard="0" robust="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order more_frequencies="0" standard="150" robust="150"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
