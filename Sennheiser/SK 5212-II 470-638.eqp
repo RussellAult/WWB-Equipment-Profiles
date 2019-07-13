@@ -1,0 +1,37 @@
+<equipment_profile version="1.0" appl_version="6.12.1.25" time="21:54:55" date="Sat Mar 10 2018" source="terfel">
+    <device>
+        <identification>
+            <manufacturer>Sennheiser</manufacturer>
+            <model>SK 5212-II</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>470-638</band>
+                <start units="kHz">470000</start>
+                <end units="kHz">638000</end>
+                <step_size units="kHz">5</step_size>
+            </band_info>
+            <tx_power units="mW">50</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start more_frequencies="-50000" robust="-100000" standard="-50000"/>
+                    <end more_frequencies="50000" robust="100000" standard="50000"/>
+                </filter>
+                <channel_spacing more_frequencies="300" robust="500" standard="300"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order more_frequencies="175" robust="200" standard="175"/>
+                        <fifth_order more_frequencies="0" robust="150" standard="0"/>
+                        <seventh_order more_frequencies="0" robust="0" standard="0"/>
+                        <ninth_order more_frequencies="0" robust="0" standard="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order more_frequencies="0" robust="150" standard="150"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
