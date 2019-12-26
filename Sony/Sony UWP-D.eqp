@@ -1,0 +1,37 @@
+<equipment_profile source="5850C-ROBERTS1" appl_version="6.13.1.120" date="Thu Dec 26 2019" version="1.0" time="13:44:52">
+    <device>
+        <identification>
+            <manufacturer>Sony</manufacturer>
+            <model>UWP-D</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>14</band>
+                <start units="kHz">470125</start>
+                <end units="kHz">493875</end>
+                <step_size units="kHz">25</step_size>
+            </band_info>
+            <tx_power units="mW">5,30</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start standard="-100000" more_frequencies="-100000" robust="-100000"/>
+                    <end standard="100000" more_frequencies="100000" robust="100000"/>
+                </filter>
+                <channel_spacing standard="250" more_frequencies="250" robust="250"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order standard="125" more_frequencies="125" robust="125"/>
+                        <fifth_order standard="0" more_frequencies="0" robust="125"/>
+                        <seventh_order standard="0" more_frequencies="0" robust="0"/>
+                        <ninth_order standard="0" more_frequencies="0" robust="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order standard="125" more_frequencies="125" robust="125"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
