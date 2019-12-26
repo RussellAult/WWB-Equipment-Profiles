@@ -1,0 +1,37 @@
+<equipment_profile appl_version="6.12.4.64" time="16:41:37" source="S-CS-08" version="1.0" date="Thu Aug 16 2018">
+    <device>
+        <identification>
+            <manufacturer>Lectrosonics</manufacturer>
+            <model>Wide Band</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>B2</band>
+                <start units="kHz">563200</start>
+                <end units="kHz">639900</end>
+                <step_size units="kHz">25</step_size>
+            </band_info>
+            <tx_power units="mW">50,100,250</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Tracking">
+                    <start standard="-100000" more_frequencies="-50000" robust="-150000"/>
+                    <end standard="100000" more_frequencies="50000" robust="150000"/>
+                </filter>
+                <channel_spacing standard="399" more_frequencies="399" robust="699"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order standard="99" more_frequencies="99" robust="99"/>
+                        <fifth_order standard="89" more_frequencies="89" robust="89"/>
+                        <seventh_order standard="79" more_frequencies="79" robust="79"/>
+                        <ninth_order standard="0" more_frequencies="0" robust="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order standard="49" more_frequencies="49" robust="49"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
