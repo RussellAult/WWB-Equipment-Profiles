@@ -1,0 +1,37 @@
+<equipment_profile source="5850C-ROBERTS1" appl_version="6.13.1.120" date="Thu Dec 26 2019" version="1.0" time="13:42:54">
+    <device>
+        <identification>
+            <manufacturer>AKG</manufacturer>
+            <model>WMS 4500</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>7</band>
+                <start units="kHz">500000</start>
+                <end units="kHz">530000</end>
+                <step_size units="kHz">25</step_size>
+            </band_info>
+            <tx_power units="mW">50</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start standard="-50000" more_frequencies="-50000" robust="-100000"/>
+                    <end standard="50000" more_frequencies="50000" robust="100000"/>
+                </filter>
+                <channel_spacing standard="400" more_frequencies="300" robust="400"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order standard="200" more_frequencies="100" robust="400"/>
+                        <fifth_order standard="200" more_frequencies="100" robust="200"/>
+                        <seventh_order standard="0" more_frequencies="0" robust="0"/>
+                        <ninth_order standard="0" more_frequencies="0" robust="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order standard="200" more_frequencies="100" robust="200"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
