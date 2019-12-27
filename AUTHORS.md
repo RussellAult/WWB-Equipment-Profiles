@@ -1,0 +1,17 @@
+# Russell Ault
+- MIPRO/ACT-311B 5NC.eqp
+- MIPRO/ACT-311B 5ND.eqp
+- MIPRO/ACT-717a 5UA.eqp
+- Sennheiser/SK 5212 476-512.eqp
+- Sennheiser/SK 5212 560-596.eqp
+- Sennheiser/SK 5212 578-614 25kHz.eqp
+- Sennheiser/SK 5212 578-614.eqp
+- Sennheiser/SK 5212 584-620.eqp
+- Sennheiser/SK 5212 590-626.eqp
+- Sennheiser/SK 5212-II 470-638.eqp
+- Telex/BTR-700 Base Station A.eqp
+
+# Philip Roberts
+- AKG/WMS 4500 7.eqp - `Created using http://rfcoordinationnyc.com/ spreadsheet on 2019-12-26, checked all groups`
+- Lectrosonics/Duet M2.eqp
+- Sony/UWP-D.eqp
