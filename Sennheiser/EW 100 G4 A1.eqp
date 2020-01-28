@@ -1,0 +1,37 @@
+<equipment_profile source="callas" version="1.0" time="19:42:33" appl_version="6.13.1.120" date="Sat Nov 23 2019">
+    <device>
+        <identification>
+            <manufacturer>Sennheiser</manufacturer>
+            <model>EW 100 G4</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>A1</band>
+                <start units="kHz">470000</start>
+                <end units="kHz">516000</end>
+                <step_size units="kHz">25</step_size>
+            </band_info>
+            <tx_power units="mW">30</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start standard="-50000" robust="-100000" more_frequencies="-50000"/>
+                    <end standard="50000" robust="100000" more_frequencies="50000"/>
+                </filter>
+                <channel_spacing standard="400" robust="600" more_frequencies="350"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order standard="200" robust="200" more_frequencies="175"/>
+                        <fifth_order standard="0" robust="150" more_frequencies="0"/>
+                        <seventh_order standard="0" robust="0" more_frequencies="0"/>
+                        <ninth_order standard="0" robust="0" more_frequencies="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order standard="150" robust="150" more_frequencies="0"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
