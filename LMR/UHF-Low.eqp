@@ -1,0 +1,37 @@
+<equipment_profile date="Sat Nov 30 2019" source="callas" time="13:30:42" appl_version="6.13.1.120" version="1.0">
+    <device>
+        <identification>
+            <manufacturer>LMR</manufacturer>
+            <model>Analogue</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>UHF-Low</band>
+                <start units="kHz">403000</start>
+                <end units="kHz">470000</end>
+                <step_size units="kHz">1</step_size>
+            </band_info>
+            <tx_power units="mW">999</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start standard="-1000" robust="-1000" more_frequencies="-1000"/>
+                    <end standard="1000" robust="1000" more_frequencies="1000"/>
+                </filter>
+                <channel_spacing standard="24" robust="24" more_frequencies="24"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order standard="24" robust="24" more_frequencies="24"/>
+                        <fifth_order standard="0" robust="0" more_frequencies="0"/>
+                        <seventh_order standard="0" robust="0" more_frequencies="0"/>
+                        <ninth_order standard="0" robust="0" more_frequencies="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order standard="0" robust="0" more_frequencies="0"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>

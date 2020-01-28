@@ -1,4 +1,5 @@
 # Russell Ault
+- LMR/UHF-Low.eqp - `Created with the help of Henry Cohen https://forums.prosoundweb.com/index.php/topic,172652.msg1590538.html#msg1590538`
 - MIPRO/ACT-311B 5NC.eqp
 - MIPRO/ACT-311B 5ND.eqp
 - MIPRO/ACT-717a 5UA.eqp
