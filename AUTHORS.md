@@ -2,6 +2,8 @@
 - MIPRO/ACT-311B 5NC.eqp
 - MIPRO/ACT-311B 5ND.eqp
 - MIPRO/ACT-717a 5UA.eqp
+- Sennheiser/EW 100 G4 A1.eqp
+- Sennheiser/EW 300 G4 Awplus.eqp
 - Sennheiser/SK 5212 476-512.eqp
 - Sennheiser/SK 5212 560-596.eqp
 - Sennheiser/SK 5212 578-614 25kHz.eqp
