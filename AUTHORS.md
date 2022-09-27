@@ -21,3 +21,4 @@
 
 # Diogo Nunes
 - LD Systems/MEI1000G2 823-865.eqp
+- Trantec/S5000 TV65-70.eqp
