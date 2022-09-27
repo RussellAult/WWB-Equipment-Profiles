@@ -1,0 +1,37 @@
+<equipment_profile version="1.0" appl_version="6.12.1.25" source="Diogo-PC" date="ju. mar. 23 2017" time="00:12:07">
+    <device>
+        <identification>
+            <manufacturer>Trantec</manufacturer>
+            <model>S5000</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>TV65-70</band>
+                <start units="kHz">823000</start>
+                <end units="kHz">865000</end>
+                <step_size units="kHz">25</step_size>
+            </band_info>
+            <tx_power units="mW">10,30</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start standard="-30000" robust="-50000" more_frequencies="-25000"/>
+                    <end standard="30000" robust="50000" more_frequencies="25000"/>
+                </filter>
+                <channel_spacing standard="350" robust="375" more_frequencies="325"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order standard="175" robust="175" more_frequencies="175"/>
+                        <fifth_order standard="0" robust="0" more_frequencies="0"/>
+                        <seventh_order standard="0" robust="0" more_frequencies="0"/>
+                        <ninth_order standard="0" robust="0" more_frequencies="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order standard="0" robust="100" more_frequencies="0"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
