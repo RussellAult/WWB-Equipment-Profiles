@@ -1,0 +1,38 @@
+<equipment_profile source="DIOGO-PC" time="15:17:54" appl_version="6.12.2.35" version="1.0" date="lu. may. 7 2018">
+    <device>
+        <identification>
+            <manufacturer>LD Systems</manufacturer>
+            <model>MEI 1000 G2</model>
+            <type>In Ear Monitor</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Specific frequencies">
+                <band>823-865</band>
+                <start units="kHz">823000</start>
+                <end units="kHz">865000</end>
+                <step_size units="kHz">50</step_size>
+                <specific_frequencies units="kHz">823100,823150,823200,823250,823500,823600,823700,823750,823800,823850,823950,824100,824600,824700,824750,824850,824950,825300,825500,825600,825650,825750,825800,825850,826200,826300,826500,826550,826800,826850,826950,827300,827700,827750,828100,828250,828350,828900,829100,829150,829200,829550,829600,829650,830100,830600,831150,831250,831300,831600,831650,831900,863100,863150,863200,863250,863500,863550,863650,863700,863850,863950,864000,864050,864100,864150,864300,864350,864450,864500,864750,864800,864850,864900</specific_frequencies>
+            </band_info>
+            <tx_power units="mW">10</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start standard="-200000" more_frequencies="-100000" robust="-300000"/>
+                    <end standard="200000" more_frequencies="100000" robust="300000"/>
+                </filter>
+                <channel_spacing standard="800" more_frequencies="450" robust="1000"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order standard="400" more_frequencies="250" robust="500"/>
+                        <fifth_order standard="0" more_frequencies="0" robust="0"/>
+                        <seventh_order standard="0" more_frequencies="0" robust="0"/>
+                        <ninth_order standard="0" more_frequencies="0" robust="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order standard="0" more_frequencies="0" robust="100"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
