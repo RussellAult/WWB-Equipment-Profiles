@@ -70,3 +70,8 @@
 - Overline Systems/UC_ZB.eqp
 - Overline Systems/UC_ZC.eqp
 - Overline Systems/UC_ZD.eqp
+- Sennheiser/SR3256 A.eqp
+- Sennheiser/SR3256 B.eqp
+- Sennheiser/SR3256 C.eqp
+- Sennheiser/SR3256 D.eqp
+- Sennheiser/SR3256 E.eqp
