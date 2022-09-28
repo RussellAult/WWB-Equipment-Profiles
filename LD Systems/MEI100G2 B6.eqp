@@ -1,0 +1,38 @@
+<equipment_profile appl_version="6.12.1.25" version="1.0" source="Diogo-PC" time="19:27:27" date="ma. mar. 28 2017">
+    <device>
+        <identification>
+            <manufacturer>LD Systems</manufacturer>
+            <model>MEI100G2</model>
+            <type>In Ear Monitor</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Specific frequencies">
+                <band>B6</band>
+                <start units="kHz">554000</start>
+                <end units="kHz">679000</end>
+                <step_size units="kHz">25</step_size>
+                <specific_frequencies units="kHz">655200,655400,655425,655500,655700,656100,656250,656550,656675,656775,656975,657075,657225,657400,657500,657800,657800,658100,658500,658800,659225,659450,659500,659550,659750,659800,659825,660050,660425,660575,660750,660875,661200,661500,661575,661725,662025,662050,662350,662475,662600,662900,663200,663350,663500,663650,663700,663900,664000,664425,664550,664725,664775,664850,665250,665325,665525,665550,666200,666500,666500,666800,667500,667800,668100,668675,668750,669225,669450,669525,669575,669750,669875,670100,670300,670400,670650,670800,670950,671400,671525,671825,671950,672250,672275,672425,672575,672725,672800,673250,673425,673575,673725,673875,674450,674500,674550,674750,674775,675075,675500,675775,675800,676075,676200,676500,676600,676800,676900,677225,677325,677750,677900,678050,678200,678575,678600,678800,678875,678900</specific_frequencies>
+            </band_info>
+            <tx_power units="mW">10</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start robust="-100000" standard="-80000" more_frequencies="-60000"/>
+                    <end robust="80000" standard="60000" more_frequencies="40000"/>
+                </filter>
+                <channel_spacing robust="700" standard="625" more_frequencies="625"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order robust="350" standard="300" more_frequencies="200"/>
+                        <fifth_order robust="200" standard="200" more_frequencies="0"/>
+                        <seventh_order robust="200" standard="100" more_frequencies="0"/>
+                        <ninth_order robust="200" standard="100" more_frequencies="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order robust="350" standard="300" more_frequencies="25"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
