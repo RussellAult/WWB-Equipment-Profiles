@@ -1,0 +1,38 @@
+<equipment_profile version="1.0" appl_version="6.8.1.1" source="ACER" time="01:24:12" date="jue dic 26 2013">
+    <device>
+        <identification>
+            <manufacturer>Overline Systems</manufacturer>
+            <model>UC</model>
+            <type>Intercom</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Specific frequencies">
+                <band>M34D</band>
+                <start units="kHz">742000</start>
+                <end units="kHz">758000</end>
+                <step_size units="kHz">25</step_size>
+                <specific_frequencies units="kHz">743025,743875,744400,744850,745350,746000,746350,747100,747525,748750,749700,751025,751875,752400,752850,753350,754000,754350,755100,755525,756750,757700</specific_frequencies>
+            </band_info>
+            <tx_power units="mW">10,30,50,250,500,999</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start robust="-300000" more_frequencies="-100000" standard="-200000"/>
+                    <end robust="300000" more_frequencies="100000" standard="200000"/>
+                </filter>
+                <channel_spacing robust="1000" more_frequencies="600" standard="800"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order robust="500" more_frequencies="300" standard="400"/>
+                        <fifth_order robust="0" more_frequencies="0" standard="0"/>
+                        <seventh_order robust="0" more_frequencies="0" standard="0"/>
+                        <ninth_order robust="0" more_frequencies="0" standard="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order robust="100" more_frequencies="0" standard="0"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>

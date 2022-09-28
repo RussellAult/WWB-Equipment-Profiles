@@ -1,0 +1,38 @@
+<equipment_profile version="1.0" appl_version="6.8.1.1" source="ACER" time="01:49:24" date="jue dic 26 2013">
+    <device>
+        <identification>
+            <manufacturer>Overline Systems</manufacturer>
+            <model>UC</model>
+            <type>Intercom</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Specific frequencies">
+                <band>XD</band>
+                <start units="kHz">574000</start>
+                <end units="kHz">590000</end>
+                <step_size units="kHz">25</step_size>
+                <specific_frequencies units="kHz">575025,575875,576400,576850,577350,578000,578350,579100,579525,580750,581700,583025,583875,584400,584850,585350,586000,586350,587100,587525,588750,589700</specific_frequencies>
+            </band_info>
+            <tx_power units="mW">10,30,50,250,500,999</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start robust="-30000" more_frequencies="-25000" standard="-25000"/>
+                    <end robust="30000" more_frequencies="25000" standard="25000"/>
+                </filter>
+                <channel_spacing robust="300" more_frequencies="250" standard="275"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order robust="60" more_frequencies="0" standard="50"/>
+                        <fifth_order robust="0" more_frequencies="0" standard="0"/>
+                        <seventh_order robust="0" more_frequencies="0" standard="0"/>
+                        <ninth_order robust="0" more_frequencies="0" standard="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order robust="0" more_frequencies="0" standard="0"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
