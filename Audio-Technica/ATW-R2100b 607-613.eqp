@@ -1,0 +1,38 @@
+<equipment_profile appl_version="6.12.1.25" version="1.0" source="Diogo-PC" time="19:27:27" date="ma. mar. 28 2017">
+    <device>
+        <identification>
+            <manufacturer>Audio-Technica</manufacturer>
+            <model>ATW-R2100b</model>
+            <type>Microphone</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Specific frequencies">
+                <band>607-613</band>
+                <start units="kHz">607625</start>
+                <end units="kHz">613300</end>
+                <step_size units="kHz">25</step_size>
+                <specific_frequencies units="kHz">607625,608875,609575,610400,611675,612825,606500,606750,607125,613300</specific_frequencies>
+            </band_info>
+            <tx_power units="mW">10</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start robust="-100000" standard="-80000" more_frequencies="-60000"/>
+                    <end robust="80000" standard="60000" more_frequencies="40000"/>
+                </filter>
+                <channel_spacing robust="700" standard="625" more_frequencies="525"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order robust="350" standard="300" more_frequencies="200"/>
+                        <fifth_order robust="200" standard="200" more_frequencies="0"/>
+                        <seventh_order robust="200" standard="100" more_frequencies="0"/>
+                        <ninth_order robust="200" standard="100" more_frequencies="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order robust="350" standard="300" more_frequencies="25"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
