@@ -75,3 +75,4 @@
 - Sennheiser/SR3256 C.eqp
 - Sennheiser/SR3256 D.eqp
 - Sennheiser/SR3256 E.eqp
+- Audio-Technica/ATW-R2100b 607-613.eqp
