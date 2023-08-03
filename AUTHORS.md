@@ -18,3 +18,61 @@
 - AKG/WMS 4500 7.eqp - `Created using http://rfcoordinationnyc.com/ spreadsheet on 2019-12-26, checked all groups`
 - Lectrosonics/Duet M2.eqp
 - Sony/UWP-D.eqp
+
+# Diogo Nunes
+- LD Systems/MEI1000G2 823-865.eqp
+- Trantec/S5000 TV65-70.eqp
+- Trantec/S5000 TV38- Overline Systems/UC_BA.eqp
+- Overline Systems/UC_BB.eqp
+- Overline Systems/UC_BC.eqp
+- Overline Systems/UC_BD.eqp
+- Overline Systems/UC_M1C.eqp
+- Overline Systems/UC_M2C.eqp
+- Overline Systems/UC_M2D.eqp
+- Overline Systems/UC_M34D.eqp
+- Overline Systems/UC_M3C.eqp
+- Overline Systems/UC_M45D.eqp
+- Overline Systems/UC_M4A.eqp
+- Overline Systems/UC_M4B.eqp
+- Overline Systems/UC_M4C.eqp
+- Overline Systems/UC_M4D.eqp
+- Overline Systems/UC_M56D.eqp
+- Overline Systems/UC_M5A.eqp
+- Overline Systems/UC_M5B.eqp
+- Overline Systems/UC_M5C.eqp
+- Overline Systems/UC_M5D.eqp
+- Overline Systems/UC_M65D.eqp
+- Overline Systems/UC_M67D.eqp
+- Overline Systems/UC_M6A.eqp
+- Overline Systems/UC_M6B.eqp
+- Overline Systems/UC_M6C.eqp
+- Overline Systems/UC_M6D.eqp
+- Overline Systems/UC_M7A.eqp
+- Overline Systems/UC_M7B.eqp
+- Overline Systems/UC_M7C.eqp
+- Overline Systems/UC_M7D.eqp
+- Overline Systems/UC_M8A.eqp
+- Overline Systems/UC_M8B.eqp
+- Overline Systems/UC_M8D.eqp
+- Overline Systems/UC_M9A.eqp
+- Overline Systems/UC_M9D.eqp
+- Overline Systems/UC_VD.eqp
+- Overline Systems/UC_WD.eqp
+- Overline Systems/UC_XA.eqp
+- Overline Systems/UC_XB.eqp
+- Overline Systems/UC_XC.eqp
+- Overline Systems/UC_XD.eqp
+- Overline Systems/UC_YA.eqp
+- Overline Systems/UC_YB.eqp
+- Overline Systems/UC_YC.eqp
+- Overline Systems/UC_YD.eqp
+- Overline Systems/UC_ZA.eqp
+- Overline Systems/UC_ZB.eqp
+- Overline Systems/UC_ZC.eqp
+- Overline Systems/UC_ZD.eqp
+- Sennheiser/SR3256 A.eqp
+- Sennheiser/SR3256 B.eqp
+- Sennheiser/SR3256 C.eqp
+- Sennheiser/SR3256 D.eqp
+- Sennheiser/SR3256 E.eqp
+- Audio-Technica/ATW-R2100b 607-613.eqp

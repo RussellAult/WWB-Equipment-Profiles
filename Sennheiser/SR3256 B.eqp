@@ -1,0 +1,37 @@
+<equipment_profile version="1.0" appl_version="6.11.3.6" source="MacBook-Pro-de-Santi-2.local" time="18:18:48" date="mié sept 21 2016">
+    <device>
+        <identification>
+            <manufacturer>Sennheiser</manufacturer>
+            <model>SR3256</model>
+            <type>In Ear Monitor</type>
+        </identification>
+        <rf_info>
+            <imd_source>1</imd_source>
+            <band_info tuning_type="Frequency range">
+                <band>B</band>
+                <start units="kHz">626000</start>
+                <end units="kHz">662000</end>
+                <step_size units="kHz">5</step_size>
+            </band_info>
+            <tx_power units="mW">100</tx_power>
+            <spacing_info units="kHz">
+                <filter type="Fixed">
+                    <start robust="-100000" more_frequencies="-50000" standard="-50000"/>
+                    <end robust="100000" more_frequencies="50000" standard="50000"/>
+                </filter>
+                <channel_spacing robust="600" more_frequencies="400" standard="500"/>
+                <intermods>
+                    <two_trans_spacing>
+                        <third_order robust="200" more_frequencies="200" standard="200"/>
+                        <fifth_order robust="150" more_frequencies="0" standard="0"/>
+                        <seventh_order robust="0" more_frequencies="0" standard="0"/>
+                        <ninth_order robust="0" more_frequencies="0" standard="0"/>
+                    </two_trans_spacing>
+                    <three_trans_spacing>
+                        <third_order robust="200" more_frequencies="150" standard="200"/>
+                    </three_trans_spacing>
+                </intermods>
+            </spacing_info>
+        </rf_info>
+    </device>
+</equipment_profile>
