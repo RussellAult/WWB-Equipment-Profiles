@@ -1,0 +1,134 @@
+<equipment_profile source="Davids-MacBook-Pro-2.local" date="Sun Jun 1 2025" version="2.0" time="21:05:14" appl_version="7.4.0.87">
+    <device>
+        <identification>
+            <manufacturer>Sennheiser</manufacturer>
+            <model>XSW-1</model>
+            <band>A</band>
+            <type>Microphone</type>
+        </identification>
+        <device_parameters>
+            <tuning_capability version="0.0.0.1" id="d2cb9608-538f-42e1-b9f0-ddae90a8b7f8">
+                <freq_list freq_units="KHz">
+                    <freq>548250</freq>
+                    <freq>548350</freq>
+                    <freq>548650</freq>
+                    <freq>548750</freq>
+                    <freq>549050</freq>
+                    <freq>549150</freq>
+                    <freq>549850</freq>
+                    <freq>550050</freq>
+                    <freq>550350</freq>
+                    <freq>550850</freq>
+                    <freq>551300</freq>
+                    <freq>552150</freq>
+                    <freq>552350</freq>
+                    <freq>552750</freq>
+                    <freq>553150</freq>
+                    <freq>553250</freq>
+                    <freq>553650</freq>
+                    <freq>553750</freq>
+                    <freq>554350</freq>
+                    <freq>554400</freq>
+                    <freq>554800</freq>
+                    <freq>555050</freq>
+                    <freq>555300</freq>
+                    <freq>555900</freq>
+                    <freq>556050</freq>
+                    <freq>556150</freq>
+                    <freq>556850</freq>
+                    <freq>556900</freq>
+                    <freq>557600</freq>
+                    <freq>558150</freq>
+                    <freq>558250</freq>
+                    <freq>558750</freq>
+                    <freq>558800</freq>
+                    <freq>559250</freq>
+                    <freq>559600</freq>
+                    <freq>559650</freq>
+                    <freq>560350</freq>
+                    <freq>560400</freq>
+                    <freq>560750</freq>
+                    <freq>561200</freq>
+                    <freq>561250</freq>
+                    <freq>561800</freq>
+                    <freq>561850</freq>
+                    <freq>562400</freq>
+                    <freq>563100</freq>
+                    <freq>563150</freq>
+                    <freq>563850</freq>
+                    <freq>563950</freq>
+                    <freq>564100</freq>
+                    <freq>564200</freq>
+                    <freq>564700</freq>
+                    <freq>564950</freq>
+                    <freq>565200</freq>
+                    <freq>565600</freq>
+                    <freq>565650</freq>
+                    <freq>566250</freq>
+                    <freq>566350</freq>
+                    <freq>566750</freq>
+                    <freq>566850</freq>
+                    <freq>567250</freq>
+                    <freq>567650</freq>
+                    <freq>567850</freq>
+                    <freq>568250</freq>
+                    <freq>569150</freq>
+                    <freq>569950</freq>
+                    <freq>570150</freq>
+                    <freq>570850</freq>
+                    <freq>570950</freq>
+                    <freq>571950</freq>
+                </freq_list>
+            </tuning_capability>
+            <tx_power units="mW">10</tx_power>
+            <channels>1</channels>
+        </device_parameters>
+        <compat_profiles units="kHz">
+            <compat_profile version="0.0.0.1" name="Robust" id="0db8104e-3271-483e-90be-65a86a2ee68b" synthesizable="1" imd_source="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>600</ch_ch>
+                    <imd_2t3o>200</imd_2t3o>
+                    <imd_2t5o>150</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-100000</filter_start>
+                    <filter_end>100000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="Standard" id="564e2df7-32b8-4f0d-aca1-1bbaa1b07b5d" synthesizable="1" imd_source="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>400</ch_ch>
+                    <imd_2t3o>100</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="More Frequencies" id="f2f464a7-e7a3-4aa9-ade8-35acc5b3bb75" synthesizable="1" imd_source="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>350</ch_ch>
+                    <imd_2t3o>175</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+        </compat_profiles>
+    </device>
+</equipment_profile>

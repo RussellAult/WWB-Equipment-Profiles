@@ -1,0 +1,89 @@
+<equipment_profile source="Davids-MacBook-Pro-2.local" date="Sun Jun 1 2025" version="2.0" time="20:37:52" appl_version="7.4.0.87">
+    <device>
+        <identification>
+            <manufacturer>GTDaudio</manufacturer>
+            <model>G-787</model>
+            <band>C</band>
+            <type>Microphone</type>
+        </identification>
+        <device_parameters>
+            <tuning_capability version="0.0.0.1" id="b0b1a961-f053-4929-baa6-15fc283e09bb">
+                <range freq_units="KHz">
+                    <start>560000</start>
+                    <end>569925</end>
+                    <step>25</step>
+                </range>
+                <sub_range_list freq_units="KHz">
+                    <sub_range>
+                        <start>560000</start>
+                        <end>569925</end>
+                    </sub_range>
+                </sub_range_list>
+            </tuning_capability>
+            <tx_power units="mW">10</tx_power>
+            <channels>1</channels>
+        </device_parameters>
+        <compat_profiles units="kHz">
+            <compat_profile version="0.0.0.1" name="Robust" id="43724eed-507a-4593-a07d-ff410ac319af" synthesizable="1" imd_source="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>1200</ch_ch>
+                    <imd_2t3o>500</imd_2t3o>
+                    <imd_2t5o>225</imd_2t5o>
+                    <imd_2t7o>175</imd_2t7o>
+                    <imd_2t9o>175</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-195000</filter_start>
+                    <filter_end>195000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="Standard" id="dca362c9-368a-4a3c-a47d-35fc56a1e41f" synthesizable="1" imd_source="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>950</ch_ch>
+                    <imd_2t3o>225</imd_2t3o>
+                    <imd_2t5o>175</imd_2t5o>
+                    <imd_2t7o>150</imd_2t7o>
+                    <imd_2t9o>150</imd_2t9o>
+                    <imd_3t3o>125</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-165000</filter_start>
+                    <filter_end>165000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="More Frequencies" id="238fef20-93f7-4795-9c75-07a609c1fef0" synthesizable="1" imd_source="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>750</ch_ch>
+                    <imd_2t3o>175</imd_2t3o>
+                    <imd_2t5o>100</imd_2t5o>
+                    <imd_2t7o>100</imd_2t7o>
+                    <imd_2t9o>100</imd_2t9o>
+                    <imd_3t3o>125</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-130000</filter_start>
+                    <filter_end>130000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="Even More Frequencies" id="2ff3283d-903a-40c4-a632-65ae0b7235b4" synthesizable="1" imd_source="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>350</ch_ch>
+                    <imd_2t3o>175</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+        </compat_profiles>
+    </device>
+</equipment_profile>

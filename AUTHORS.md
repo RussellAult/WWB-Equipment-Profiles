@@ -79,3 +79,23 @@
 - MIPRO/MIPRO_ACT8_5E.eqp
 - MIPRO/MIPRO_ACT8_5F.eqp
 - MIPRO/MIPRO_ACT8_6E.eqp
+
+# David Walters
+- GTDaudio_B-33_A.eqp
+- GTDaudio_B-33_B.eqp
+- GTDaudio_B-33_C.eqp
+- GTDaudio_B-33_D.eqp
+- GTDaudio_G-787_A.eqp
+- GTDaudio_G-787_B.eqp
+- GTDaudio_G-787_C.eqp
+- GTDaudio_G-787_D.eqp
+- Clutch Performance_UHF-6200_USA.eqp
+- Sennheiser_XSW_A.eqp
+- Sennheiser_EW-D_Q1-Q6.eqp
+- Sennheiser_EW-D_Q1-Q9.eqp
+- Sennheiser_EW-D_R1-R6.eqp
+- Sennheiser_EW-D_R1-R9.eqp
+- Sennheiser_EW-D_R4-R9.eqp
+- Sennheiser_EW-D_S1-S7.eqp
+- Sennheiser_EW-D_S4-S7.eqp
+- Sennheiser_EW-D_S7-S10.eqp

@@ -1,0 +1,74 @@
+<equipment_profile source="Davids-MacBook-Pro-2.local" date="Sun Jun 1 2025" version="2.0" time="20:37:13" appl_version="7.4.0.87">
+    <device>
+        <identification>
+            <manufacturer>Sennheiser</manufacturer>
+            <model>EW-D</model>
+            <band>R1-R6</band>
+            <type>Microphone</type>
+        </identification>
+        <device_parameters>
+            <tuning_capability version="0.0.0.1" id="11e7325d-4fc0-4a1b-8a2b-df9028946d9c">
+                <range freq_units="KHz">
+                    <start>520000</start>
+                    <end>576000</end>
+                    <step>600</step>
+                </range>
+                <sub_range_list freq_units="KHz">
+                    <sub_range>
+                        <start>520000</start>
+                        <end>576000</end>
+                    </sub_range>
+                </sub_range_list>
+            </tuning_capability>
+            <tx_power units="mW">1,10,20</tx_power>
+            <channels>1</channels>
+        </device_parameters>
+        <compat_profiles units="kHz">
+            <compat_profile version="0.0.0.1" name="Robust" id="709c2392-28f3-4268-b489-c40c6a2e92b1" synthesizable="1" imd_source="0">
+                <spacing freq_units="KHz">
+                    <ch_ch>125</ch_ch>
+                    <imd_2t3o>200</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-100000</filter_start>
+                    <filter_end>100000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="Standard" id="9f4cc378-df28-4ff5-a250-03f066495d35" synthesizable="1" imd_source="0">
+                <spacing freq_units="KHz">
+                    <ch_ch>125</ch_ch>
+                    <imd_2t3o>150</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-100000</filter_start>
+                    <filter_end>100000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="More Frequencies" id="c53a4afa-7421-440d-b804-30837dc2d07e" synthesizable="1" imd_source="0">
+                <spacing freq_units="KHz">
+                    <ch_ch>125</ch_ch>
+                    <imd_2t3o>0</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-100000</filter_start>
+                    <filter_end>100000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+        </compat_profiles>
+    </device>
+</equipment_profile>
